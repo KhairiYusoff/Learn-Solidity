@@ -6,6 +6,7 @@ contract Test {
 address public admin;
 
 constructor() public {	
-	admin = msg.sender; // Global variable
+	admin = msg.sender; 
+	uint timestamp = block.timestamp;
   }
 }
