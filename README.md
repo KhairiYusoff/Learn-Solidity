@@ -22,3 +22,16 @@ contract SimpleStorage {
    }
 }
 ```
+
+## Contract
+
+A Solidity contract is a block of code that contains functions and state variables. It is stored on a specific address on the Ethereum blockchain.
+To create a contract, we use the `contract` keyword followed by the contract name.
+
+```
+contract MyContract {
+
+//Block of codes
+
+}
+```
