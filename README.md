@@ -1,4 +1,4 @@
-This is my solidity folder for learning.
+# Solidity
 
 What is Solidity:
 
