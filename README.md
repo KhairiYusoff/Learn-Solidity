@@ -8,10 +8,11 @@ What is Solidity:
 
 ## Pragma
 
-The first line is a pragma directive which tells that the source code is written for Solidity version 0.4.0 or anything newer that does not break functionality up to, but not including, version 0.6.0.
+The word `pragma solidity` specifies the version of the compiler that the code should use. In the example below, the first line is a pragma directive which tells that the source code is written for Solidity version 0.4.0 or anything newer that does not break functionality up to, but not including, version 0.6.0.
 
 ```
 pragma solidity >=0.4.0 <0.6.0;
+
 contract SimpleStorage {
    uint storedData;
    function set(uint x) public {
