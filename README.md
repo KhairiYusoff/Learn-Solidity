@@ -46,3 +46,13 @@ The following types are also called value types because variables of these types
 - Booleans
 - Integers
 - Address
+
+## Reference Types
+
+Reference types consist of:
+
+- Arrays
+- Structs
+- Mapping
+
+The main difference between the value type and reference type is Data location. Arrays and Structs have additional data location which specifies where data (value of the variable) should be stored.
