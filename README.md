@@ -36,3 +36,13 @@ contract MyContract {
 
 }
 ```
+
+## Value Types
+
+Solidity value types include booleans, integers, fixed point numbers, addresses, contract types, fixed-size byte arrays, rational and integer literals, and enums.
+
+The following types are also called value types because variables of these types will always be passed by value, i.e. they are always copied when they are used as function arguments or in assignments.
+
+- Booleans
+- Integers
+- Address
