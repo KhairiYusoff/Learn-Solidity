@@ -56,3 +56,9 @@ Reference types consist of:
 - Mapping
 
 The main difference between the value type and reference type is Data location. Arrays and Structs have additional data location which specifies where data (value of the variable) should be stored.
+
+## Variables
+
+- State Variables - Variables whose values are permanently stored in a contract storage.
+- Local Variables - Variables whose values are present till function is executing.
+- Global Variables - Special variables exists in the global namespace used to get information about the blockchain.
