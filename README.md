@@ -79,3 +79,8 @@ State variables only have three possible visibility modifiers:
 - `internal`
 - `public`
 - `private`
+
+**external** - only functions other contracts and accounts can call.
+**internal** - only inside contract that inherits an internal function. When visibility is not specified, state variables have the default value of internal.
+**public** - functions and variables can be accessed by all parties within and outside the contract. When the visibility is not specified, the default visibility of a function is public.
+**private** - only accessible within the contract in which they were declared.
