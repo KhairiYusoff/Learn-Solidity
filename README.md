@@ -62,3 +62,20 @@ The main difference between the value type and reference type is Data location. 
 - State Variables - Variables whose values are permanently stored in a contract storage.
 - Local Variables - Variables whose values are present till function is executing.
 - Global Variables - Special variables exists in the global namespace used to get information about the blockchain.
+
+## Visibility
+
+In Solidity, you can control who has access to the functions and state variables in your contract and how they interact with them. This concept is known as visibility.
+
+A function’s visibility can be set to:
+
+- `external`
+- `internal`
+- `public`
+- `private`
+
+State variables only have three possible visibility modifiers:
+
+- `internal`
+- `public`
+- `private`
