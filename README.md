@@ -87,3 +87,11 @@ State variables only have three possible visibility modifiers:
 **public** - functions and variables can be accessed by all parties within and outside the contract. When the visibility is not specified, the default visibility of a function is public.
 
 **private** - only accessible within the contract in which they were declared.
+
+## View and Pure functions
+
+view tells us that by running the function, no data will be saved/changed.
+
+pure tells us that not only does the function not save any data to the blockchain, but it also doesn't read any data from the blockchain.
+
+Both of these don't cost any gas to call if they're called externally from outside the contract (but they do cost gas if called internally by another function).
